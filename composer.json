@@ -1,0 +1,24 @@
+{
+	"name": "talandis/opay-gateway",
+	"type": "library",
+	"description": "Opay gateway library with composer support",
+	"keywords": ["opay", "gateway", "payments", "credit cards"],
+    "homepage": "https://github.com/talandis/opay-gateway",
+    "license": "MIT",
+	"authors": [
+			{
+			"name": "Tomas Talandis",
+			"email": "tomas@talandis.lt",
+			"homepage": "https://github.com/talandis/"
+		}		
+	],
+	"require": {
+		"php": ">=5.4.0",
+	},
+	"autoload": {
+		"psr-0": {
+			"Talandis\\Opay\\Gateway": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
